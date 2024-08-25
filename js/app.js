@@ -261,23 +261,137 @@ function calculateBIM(weight , height){
     return bmi.toFixed(2) 
 }
 
-function getBIMCategory(bim){
-    if(bim < 18.5){
-        return "UnderWeight"
+// function getBIMCategory(bim){
+//     if(bim < 18.5){
+//         return "UnderWeight"
 
-    }else if(bim >= 18.5 && bim < 24.9){
-        return "Normal weight"
-    }else if(bim >= 25 && bim < 29.9){
-        return "OverWeight"
-    }else{
-        return "Obesity"
-    }
-}
+//     }else if(bim >= 18.5 && bim < 24.9){
+//         return "Normal weight"
+//     }else if(bim >= 25 && bim < 29.9){
+//         return "OverWeight"
+//     }else{
+//         return "Obesity"
+//     }
+// }
 
-let weight = 83
-let height = 1.80
+// let weight = 83
+// let height = 1.80
 
-let bim = calculateBIM(weight,height)
-let category = getBIMCategory(bim)
-console.log("Your BIM is: " + bim)
-console.log("You are classified  as: " + category)
+// let bim = calculateBIM(weight,height)
+// let category = getBIMCategory(bim)
+// console.log("Your BIM is: " + bim)
+// console.log("You are classified  as: " + category)
+
+
+// let x = (5+4) *3
+// console.log(x)
+
+
+// local scope
+// function getName(){
+//     let name = "Omar"
+//     console.log(name)
+
+// }
+// console.log(nam)
+// getName()
+
+// Global scope
+//  let name = "Omar"
+// function getName(){
+//    
+//     console.log(name)
+// }
+// console.log(nam)
+// getName()
+
+// block socope
+// if(true){
+//     let blockScope = "I'm block Scope"
+//     console.log(blockScope)
+// }
+
+// console.log(blockScope)
+
+// function Scope
+
+// function testFunction(){
+//     var functionVar = "I'm function scope"
+//     // console.log(functionVar)
+// }
+
+// testFunction()
+// console.log(functionVar)
+
+
+// lexical scope
+
+
+// function outerFunction(){
+//     let outerVar = "I am outside!"
+
+//     function innerFunction(){
+//         console.log(outerVar)
+//     }
+
+//     innerFunction()
+// }
+
+// outerFunction()
+
+
+// Arrays
+
+// let arrayName = [item1,item2, item3] 
+
+// let shoppingList = ["Milk", "Bread", "Butter", "Eggs"]
+//Accessing Array Elements use index star 0 always
+// console.log(shoppingList[3]) // milk
+// shoppingList[2] = "cheese"
+// console.log(shoppingList)
+
+// let fruits = ["apple ", "Banana" , "Orange"]
+// //adding new element at the end of arrays
+// fruits.push("cheese")
+// fruits.pop() // removing the last element of your array
+// fruits.shift()
+// // console.log(fruits)
+//  fruits[1] = "Lemon"
+//  console.log(fruits)
+
+
+// let names = ["Omar" , "hamzi", "Nasra"] //
+// // console.log(names)
+// // wax kabadali araay
+// names[1] = "Shakri"
+// names.push("Sadak")
+// names.pop()
+// names.shift()
+// names.unshift("Ahmed")
+// console.log(names)
+
+
+// Iterating Over Arrays
+
+// let numbers = [10,20,30,40,50,60,70,80,90,100]
+// console.log(numbers)
+
+// for(let i = 0; i < numbers.length; i++ ){
+//     console.log(numbers[i])
+// }
+
+
+//  let numbers = [10,20,30,40,50,60,70,80,90,100]
+
+//  for(let number of numbers){
+//     console.log(number)
+//  }
+
+// let names = ["Omar-Tood", "Mr Sharafdin", "Abdinasir Tman"]
+// names.push("Mc Hamouda")
+// names.push("Mohamed")
+
+// names.forEach(function(name){
+//     console.log(name)
+// })
+
