@@ -101,20 +101,20 @@
 
 // scenario: E-Commerce order Managmentent
 
-const orders = [
-    {id: 1, customer: 'Omar', total: 50, status: "shipped"},
-    {id: 2, customer: 'sharafdin', total: 100, status: "shipped"},
-    {id: 3, customer: 'tman', total: 50, status: "pending"},
-    {id: 4, customer: 'hamouda', total: 200, status: "delivered"},
-    {id: 5, customer: 'farax', total: 300, status: "pending"},
-    {id: 6, customer: 'ali', total: 90, status: "delivered"},
-    {id: 7, customer: 'Geedi', total: 100, status: "shipped"},
-    {id: 8, customer: 'iqra', total: 1000, status: "pending"},
-    {id: 9, customer: 'asma', total: 1000, status: "shipped"},
-]
+// const orders = [
+//     {id: 1, customer: 'Omar', total: 50, status: "shipped"},
+//     {id: 2, customer: 'sharafdin', total: 100, status: "shipped"},
+//     {id: 3, customer: 'tman', total: 50, status: "pending"},
+//     {id: 4, customer: 'hamouda', total: 200, status: "delivered"},
+//     {id: 5, customer: 'farax', total: 300, status: "pending"},
+//     {id: 6, customer: 'ali', total: 90, status: "delivered"},
+//     {id: 7, customer: 'Geedi', total: 100, status: "shipped"},
+//     {id: 8, customer: 'iqra', total: 1000, status: "pending"},
+//     {id: 9, customer: 'asma', total: 1000, status: "shipped"},
+// ]
 
-const customerNames = orders.map(order => order.customer)
-console.log(customerNames)
+// const customerNames = orders.map(order => order.customer)
+// console.log(customerNames)
 
 
 // filter
@@ -137,5 +137,60 @@ console.log(customerNames)
 
 
 
-  
+// Math Object
+
+// common methods math
+
+//1. round Method.
+// console.log(Math.round(5.6)) // nearest integer
+// console.log(Math.round(10.3))
+
+// //2.floor
+// console.log(Math.floor(4.5))
+
+// //3.pow
+
+// console.log(Math.pow(2,4))
+
+// //4.max
+// console.log(Math.max(10,20,100))
+
+// //5. mix
+// console.log(Math.min(10,2,0))
+
+// //6. random 
+
+// console.log(Math.random()) // generates a random number between 0 and 1
+
+// ranges
+
+// random integer between 0 -9
+// console.log(Math.floor(Math.random()*10))
+
+// // Random integer between 1 and 100
+
+// console.log(Math.floor(Math.random()*100)+1)
+
+
+
+// date Objects
+
+//1. current Date and Time
+
+const now = new Date()
+console.log(now)
+
+//2. specific data and Time
+
+// const specifiDate = new Date("2000-01-31")
+// console.log(specifiDate)
+
+// Full
+
+const today = new Date()
+console.log(today.getFullYear())
+console.log(today.getMonth())
+console.log(today.getDate())
+console.log(today.getDay())
+console.log(today.getHours())
   
