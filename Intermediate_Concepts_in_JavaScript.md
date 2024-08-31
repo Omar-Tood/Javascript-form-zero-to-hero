@@ -1,6 +1,4 @@
-Here's a comprehensive lesson on the **Document Object Model (DOM)** in JavaScript:
 
----
 
 # **Understanding the Document Object Model (DOM) in JavaScript**
 
